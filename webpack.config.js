@@ -23,6 +23,27 @@ module.exports = {
   },
   module: {
     rules: [
+        {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+          },
+        ],
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+          },
+          {
+            loader: 'sass-loader',
+          },
+        ],
+      },
       {
         test: /\.tsx?$/,
         use: "awesome-typescript-loader"
@@ -36,16 +57,6 @@ module.exports = {
         test: /.json$/,
         use: 'json-loader'
       },
-      {
-        test: /\.(css|scss)$/,
-        use: [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: { modules: true }
-          }
-        ]
-      }
     ]
   },
   plugins: [
