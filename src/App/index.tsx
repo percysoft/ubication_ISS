@@ -9,7 +9,7 @@ export class App extends React.Component<{}, {}> {
   render() {
     return(
       <React.Fragment>
-        <h1>hola juanca</h1>
+        <h1>hola Percy</h1>
       </React.Fragment>
     );
   }
