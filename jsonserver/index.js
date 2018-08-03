@@ -9,6 +9,8 @@ server.use(middlewares);
 
 server.use(jsonServer.rewriter({
   '/empleados/emp': '/empleados',
+  '/empleados/:id': '/editEmpleados',
+
 }))
 
 server.use(jsonServer.bodyParser)

@@ -8,15 +8,31 @@
     },
     {
       "id": 2,
-      " first_name ":" Steve ",
-      " last_name ":" Palmer ",
-      " email ":" steve@codingthesmartway.com "
+      " first_name ": " Steve ",
+      " last_name ": " Palmer ",
+      " email ": " steve@codingthesmartway.com "
     },
     {
       " id ": 3,
-      " first_name ":" Ann ",
-      " last_name ":" Smith " ,
+      " first_name ": " Ann ",
+      " last_name ": " Smith ",
       "correo electrónico": "ann@codingthesmartway.com"
+    },
+    {
+      " id ": 3,
+      " first_name ": " Ann ",
+      " last_name ": " Smithaaaaaa ",
+      "correo electrónico": "ann@codingthesmartway.com",
+      "createdAt": 1533327125144,
+      "id": 3
+    }
+  ],
+  "editEmpleados": [
+    {
+      "id": 1,
+      "first_name": "Sebastian",
+      "last_name": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
     }
   ]
 }
