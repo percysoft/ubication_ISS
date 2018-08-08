@@ -2,6 +2,8 @@
 Base para inicializar un proyecto en react:
 
 # Configurado para usar Typescript, Jest(test)
+instalar todos los paquetes
+yarn install
 
 # Para levantar el servidor
 Ejecutar desde la raiz el comando 
