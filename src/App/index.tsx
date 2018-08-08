@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Location } from '../Components/Location';
 
 export class App extends React.Component<{}, {}> {
 
@@ -9,7 +10,7 @@ export class App extends React.Component<{}, {}> {
   render() {
     return(
       <React.Fragment>
-        <h1>hola Percy</h1>
+        <Location/>
       </React.Fragment>
     );
   }
